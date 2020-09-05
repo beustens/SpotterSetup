@@ -21,7 +21,7 @@
 ## Software installation
 1. Download the [Comitup Lite Image](https://davesteele.github.io/comitup/) and follow this tutorial https://github.com/davesteele/comitup/wiki/Tutorial until you are successfully connected on your Raspberry Pi which is also connected to a wifi with internet access
 1. Enable the camera interface: `sudo raspi-config` -> select *Interfacing Options* -> select *Camera* and enable it by selecting *Yes*, then reboot by selecting *Finish* and login via ssh again
-1. Install required packages: `sudo apt -y -qq update && apt -qq -y full-upgrade && apt install -qq -y libatlas-base-dev python3-picamera python3-numpy python3-scipy git screen`
+1. Install required packages: `sudo apt -y update && sudo apt -y full-upgrade && sudo apt install -y libatlas-base-dev python3-picamera python3-numpy python3-scipy git screen`
 1. Download [spotter](https://github.com/beustens/spotter): `git clone https://github.com/beustens/spotter.git`
 1. Test the software:
     - `cd spotter/`
