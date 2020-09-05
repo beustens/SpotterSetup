@@ -33,7 +33,7 @@
     INFO:spotter___main__:Press ctrl-C to stop
     ```
     Open the URl in a browser on a device on the same network as the Raspberry Pi. You should see the GUI running. When you are done, go back to the shell on the Raspberry Pi and press ctrl-C to stop the application. The GUI should now not be working anymore.
-1. Setup a launcher which starts the server in the background (screen): Create a file *screenrc_spotter-launcher* with this content:
+1. Setup a launcher which starts the server in the background (screen): Create a file */home/pi/screenrc_spotter-launcher* with this content:
     ```shell
     # to use this config, start screen with
     # * sudo screen -d -m -c /path/to/this_file
